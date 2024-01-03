@@ -15,7 +15,7 @@ myPersevereCodeObj['wait'] = 'I object'
 myPersevereCodeObj.isAnExcellentObject = 'true'
 //console.log(myPersevereCodeObj)
 // Add the property `term` and set it to 1.
-myPersevereCodeObj.term = 1
+myPersevereCodeObj.term += 1
 //console.log(myPersevereCodeObj)
 // Now add 1 to the value of your object's `term` property and put that new value back in your object's `term`.
 myPersevereCodeObj.term = 2
@@ -63,7 +63,7 @@ console.log(represents)
 const aboutMe = {
   fullName: "Traci Mcfall",
   age: 31,
-  isAmom: 'true',
+  "isAmom": 'true',
   kidsAge: [14, 9, 7, 2]
 }
 
